@@ -4,10 +4,16 @@
  * you may not use this file except in compliance with the Elastic License.
  */
 
+<<<<<<< HEAD:x-pack/plugins/canvas/canvas_plugin_src/elements/area_chart/index.ts
 import { ElementFactory } from '../types';
 import header from './header.png';
 
 export const areaChart: ElementFactory = () => ({
+=======
+import header from './header.png';
+
+export const areaChart: CanvasElement = () => ({
+>>>>>>> [i18n][prereq] Refactor Elements to TypeScript:x-pack/plugins/canvas/canvas_plugin_src/elements/area_chart/index.ts
   name: 'areaChart',
   displayName: 'Area chart',
   help: 'A line chart with a filled body',
